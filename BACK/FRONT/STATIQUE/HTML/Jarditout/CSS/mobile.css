@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px)
+{
+	.nav
+	{
+		border:  solid black;
+		background: black;
+	}
+	a
+	{
+		color:  white;
+	}
+	li
+	{
+		display: inline-block;
+	}
+	.TL
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+	.PH
+	{
+		border: 50px;
+		font-size: 35px;
+		width: 50%;
+	}
+	.Promo
+	{
+		width: 100%;
+		height: auto;
+	}
+	.tout
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+	.pilo
+	{
+		border: 25px solid grey;
+		background-color: grey;
+		width: 50%;
+	}
+	footer
+	{
+		border:  solid black;
+		background: black;
+	}
+}
