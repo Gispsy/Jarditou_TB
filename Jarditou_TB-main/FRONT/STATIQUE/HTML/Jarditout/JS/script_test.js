@@ -107,5 +107,5 @@ let b = "ERREUR"
 //         b = "non";
 // }
 
-b = ((a%4 == 0) && (a%100 !== 0)) || (a%400 == 0) ? "Ces une année bissextile" : "non";
-alert(b);
+// b = ((a%4 == 0) && (a%100 !== 0)) || (a%400 == 0) ? "Ces une année bissextile" : "non";
+// alert(b);
