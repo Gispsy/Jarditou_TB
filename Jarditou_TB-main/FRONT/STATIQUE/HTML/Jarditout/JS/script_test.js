@@ -100,12 +100,12 @@ alert(doille);*/
 
 let a = window.prompt("Entrer votre année");
 let b = "ERREUR"
-// if(((a%4 == 0) && (a%100 !== 0)) || (a%400 == 0)){
-//                 b = "Ces une année bissextile"
+ if(((a%4 == 0) && (a%100 !== 0)) || (a%400 == 0)){
+                b = "Ces une année bissextile"
 
-// }else{
-//         b = "non";
-// }
+ }else{
+                 b = "non";
+ }
 
 // b = ((a%4 == 0) && (a%100 !== 0)) || (a%400 == 0) ? "Ces une année bissextile" : "non";
- alert(b);
+alert(b);
