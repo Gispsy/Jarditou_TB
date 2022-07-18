@@ -32,6 +32,8 @@ alert("Bonjour "+ val + reponse1 + reponse2 + " ,Bienvenue sur la site web !");
 
 
 /* Exemple en plus*/
+
+
 /*var a = "100";
 alert("Ceci est une chaîne de caractères :" + a);
 var b = 100;
@@ -46,6 +48,8 @@ alert(d)*/
 
 
         /*cours JS*/
+
+
 /*let a = parseInt(window.prompt("entrer votre chiffre :"));
 let doille = "ERREUR";
 
@@ -63,6 +67,7 @@ alert(doille);*/
 
 
 /*Exo année*/
+
 
 // let a = window.prompt("Entrer votre année");
 // let b = "ERREUR"
@@ -98,14 +103,35 @@ alert(doille);*/
 // }
 // alert(b);
 
-let a = window.prompt("Entrer votre année");
-let b = "ERREUR"
- if(((a%4 == 0) && (a%100 !== 0)) || (a%400 == 0)){
-                b = "Ces une année bissextile"
+//let a = window.prompt("Entrer votre année");
+//let b = "ERREUR"
+//if(((a%4 == 0) && (a%100 !== 0)) || (a%400 == 0)){
+//               b = "Ces une année bissextile"
 
- }else{
-                 b = "non";
- }
+//}else{
+//               b = "non";
+//}
 
 // b = ((a%4 == 0) && (a%100 !== 0)) || (a%400 == 0) ? "Ces une année bissextile" : "non";
-alert(b);
+//alert(b);
+
+
+//Exo Boucle 
+
+
+//let N ="", nat;
+
+//while (true) {
+//        N = window.prompt("Entrer votre prénom :");
+//        if (N) {
+//                N = N + "";
+//        }else{
+//                break;
+//        }
+//}
+//alert(N)
+
+let N = window.prompt = ("Entrer votre chiffre")
+console.log(N)
+
+
