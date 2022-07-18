@@ -119,7 +119,7 @@ alert(doille);*/
 //Exo Boucle 
 
 
-//let N ="", nat;
+//let N ="";
 
 //while (true) {
 //        N = window.prompt("Entrer votre prénom :");
@@ -131,7 +131,58 @@ alert(doille);*/
 //}
 //alert(N)
 
-let N = window.prompt = ("Entrer votre chiffre")
-console.log(N)
+// let N = window.prompt("Entrer votre chiffre");
 
 
+// //décrémentation
+// for(i= (N-1); i>=0;i--){
+//         alert(i);
+// }
+
+//incrémentation
+
+// for(i=0;i>N;i++){
+//         alert(i);
+// }
+
+
+
+// while(N>=0){
+
+// if(N!=0){
+//         N=N-1;
+// }else {
+//         break;
+// }
+
+// // alert("N vaut :"+N);
+
+// // }
+
+// do{
+
+//     if(N==0){
+//         break;
+//     }else{    
+//         N=N-1;   
+// alert("N vaut :"+N);
+// }
+
+// }
+// while (N>=0)
+
+
+let a = window.prompt("Nombre entier 1");       // Premier chiffre
+let b = window.prompt("Nombre entier 2");       //Deuxieme chiffre
+let n = "Erreur";                            //valeur de a + b || Erreur
+console.log(n%2 == 0);
+while (n =a+b){                                //additions de a + b                     
+        alert("l'addition des deux faut " +n);
+         if(n%2){                             // si none%2
+                alert("La moyen est de" + n);
+                 break;                          //stop la boucle
+         }else{                                  //sinon alert 
+                alert("Mauvais résultat");
+                break;
+        }
+}
