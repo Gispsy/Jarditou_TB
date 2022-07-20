@@ -241,3 +241,17 @@ alert(doille);*/
 
 //Exo 5
 
+let ok = true
+let M= window.prompt("Entrer le mot que vous voulez");
+M.length
+console.log(M.indexOf ('M')); 
+        M.substring (0);
+        M.indexOf ('M');
+while (ok){
+        if(M=="M"){
+        alert ("Il y a "+M+" voyelle(s)");
+        ok = false;
+        }else{
+                ok = false;
+        }
+}
