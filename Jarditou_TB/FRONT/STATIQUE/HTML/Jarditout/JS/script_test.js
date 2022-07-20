@@ -171,19 +171,67 @@ alert(doille);*/
 // }
 // while (N>=0)
 
+        //exo fait met pas bon personne me la dit merci au formateur
 
-let a = parseInt(window.prompt("Nombre entier 1"));       // Premier chiffre
-let b = parseInt(window.prompt("Nombre entier 2"));       //Deuxieme chiffre
-let n = "Erreur"; 
-                           //valeur de a + b || Erreur
-console.log(a+b);
- while (n =a+b){                                //additions de a + b                     
-        alert("l'addition des deux faut " +n);
-          if(n%2){                             // si none%2
-                alert("La moyen est de" + n);
-                  break;                          //stop la boucle
-          }else{                                  //sinon alert 
-                alert("Mauvais résultat");
-                break;
-        }
+// let a = parseInt(window.prompt("Nombre entier 1"));       // Premier chiffre
+// let b = parseInt(window.prompt("Nombre entier 2"));       //Deuxieme chiffre
+// let n = "Erreur";                                              //valeur de a + b || Erreur
+
+
+//  while (n =a+b){   
+        
+//         console.log(n%2);
+//         //additions de a + b                     
+//         alert("l'addition des deux vaut " +n);
+        
+
+
+//          if(n%2 == 0){                             // si n%2
+//                 alert("La moyen est de " +n/2);
+//                   break;                          //stop la boucle
+//           }else{                                  //sinon alert 
+//                 alert("Mauvais résultat");
+//                 break;
+//         }
+// }
+
+
+//Exo 3
+
+// let ok=true;
+// let n;
+// let somme=0;
+// let compteur=0;
+// let div=0;
+
+// while (ok){
+//         n=parseInt(window.prompt("Entrer une valeur"));
+//         compteur ++;
+//         somme = somme+n;
+//         if(n<=0){
+//                 ok=false;
+//                 console.log(somme);
+//                 }else{
+//                         continue;
+//                 }
+// } 
+// div=somme%compteur
+// alert('La sommme de tout vaut' +somme);
+// alert('la division du tout vaut ' +div);
+
+
+//Exo 4 
+
+let N 
+let X
+let R
+let ok =true
+while(ok){
+N= window.prompt("Entrer la valeur 1 ");
+X= window.prompt("Entrer le multiplicateur ");
+R = N*X;
+if(R<=0){
+        ok = false
 }
+}
+alert= (N+"*"+X+"="+R);
