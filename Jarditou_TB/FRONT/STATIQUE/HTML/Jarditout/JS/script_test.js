@@ -222,16 +222,22 @@ alert(doille);*/
 
 //Exo 4 
 
-let N 
-let X
-let R
-let ok =true
-while(ok){
-N= window.prompt("Entrer la valeur 1 ");
-X= window.prompt("Entrer le multiplicateur ");
-R = N*X;
-if(R<=0){
-        ok = false
-}
-}
-alert= (N+"*"+X+"="+R);
+// let N;
+// let X;
+// let i;
+// let R;
+
+// N= window.prompt("Entrer Multiplicateur");
+// X= window.prompt("Entrer Multiplier");
+// for (i=N; i>=N; i++){
+//         if(N*X){
+//                 R=N*X;
+//                 alert(N+"*"+X+"="+R);
+//                 N--
+//         }else{
+//                 break;
+//         }
+// }
+
+//Exo 5
+
