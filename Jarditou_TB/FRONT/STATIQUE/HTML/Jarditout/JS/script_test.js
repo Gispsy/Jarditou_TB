@@ -241,17 +241,22 @@ alert(doille);*/
 
 //Exo 5
 
-let ok = true
-let M= window.prompt("Entrer le mot que vous voulez");
-M.length
-console.log(M.indexOf ('M')); 
-        M.substring (0);
-        M.indexOf ('M');
-while (ok){
-        if(M=="M"){
-        alert ("Il y a "+M+" voyelle(s)");
-        ok = false;
-        }else{
-                ok = false;
-        }
-}
+// let ok = true
+// //on récupère le mot saisi qui vaut M
+// let M= window.prompt("Entrer le mot que vous voulez");
+
+//  longueur_mot=M.length;
+
+// alert("longueur du mot : "+longueur_mot);
+
+// console.log(M.indexOf ('M')); 
+//         M.substring (0);
+//         M.indexOf ('M');
+// while (ok){
+//         if(M=="M"){
+//         alert ("Il y a "+M+" voyelle(s)");
+//         ok = false;
+//         }else{
+//                 ok = false;
+//         }
+// }

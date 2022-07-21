@@ -63,7 +63,7 @@
 //  while (n =a+b){   
         
 //         console.log(n%2);
-//         //additions de a + b                     
+//         additions de a + b                     
 //         alert("l'addition des deux vaut " +n);
         
 
@@ -118,5 +118,26 @@ for (i=N; i>=N; i++){
                 N--
         }else{
                 break;
+        }
+}
+//Exo 5
+
+let ok = true
+//on récupère le mot saisi qui vaut M
+let M= window.prompt("Entrer le mot que vous voulez");
+
+ longueur_mot=M.length;
+
+alert("longueur du mot : "+longueur_mot);
+
+console.log(M.indexOf ('M')); 
+        M.substring (0);
+        M.indexOf ('M');
+while (ok){
+        if(M=="M"){
+        alert ("Il y a "+M+" voyelle(s)");
+        ok = false;
+        }else{
+                ok = false;
         }
 }
