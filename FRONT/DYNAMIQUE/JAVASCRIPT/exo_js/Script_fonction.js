@@ -62,7 +62,7 @@
 
 // Valeur a rentrer pour l'exo
 
-let str1= window.prompt("Entrer vos valeur");
+let str1 = window.prompt("Entrer vos valeur");
 
 //Valeur caractere par défaut
 
@@ -71,10 +71,24 @@ let str2 = ";";
 //valeur pour choisir son mot dans le tableau
 
 let n = window.prompt("Entrer chiffre");
+n = n-1
 
 //Split sers a créer le tableau
 
-function str1.split(str2,n);
-if(str1 = null || 0){
-}
-console.log (split);
+let tab = str1.split(str2);
+
+console.log(tab[n]);
+alert (tab[n]);
+
+//Fonction pour tout avoir en 1
+
+let strtok =""
+function Affichage(strtok)
+{
+
+    return strtok = str1.split(str2);
+};
+
+let i = Affichage(strtok);
+
+    console.log(i[2]);
