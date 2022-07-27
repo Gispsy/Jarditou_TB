@@ -68,9 +68,83 @@
 
 //Exo 1
 
-let ok = true
-let t = Number(window.prompt("Entrer taille tableau")); //T = Taille du tableau
-let tableau = new Array(t);
-console.log(tableau.length);
-let V = Number(window.prompt("Entrer les valeurs du tableau")); //V = Valeur dans le tableau
-for ()
+// let t = window.prompt("Entrer taille du tableau")   //t = Taille du tableau
+// let myTableau = new Array(t);    //myTableau = Création du tableau via la valeur de t
+
+// for (i=0 ;i<=t-1;i++)
+// {
+//     if(i<=t-1){
+//         let valeur_saisie = window.prompt("Entrer vos valeur pour le tableau");  //i = Valeur pour le tableau
+//         myTableau[i] = valeur_saisie;
+//         console.log(myTableau[i]);
+//     }else{
+//         break;
+//     }
+// }
+// console.table(myTableau)
+
+//Exo 2
+
+let longueur_tab = window.prompt("Entrer nombre de poste");
+let myTableau;
+
+function InitTab(p)
+{
+    myTableau = Array(p);
+   return myTableau;
+}
+
+console.log(InitTab(longueur_tab));
+InitTab(longueur_tab);
+
+//Fonction saisie des poste
+
+let i;
+let valeur;
+
+function SaisieTab()
+{
+
+
+    for(i=0 ;i<longueur_tab ;i++){
+        if(i<longueur_tab){
+            valeur = window.prompt("Entrer valeur");
+            myTableau[i] = valeur;
+        }else{
+            break;
+        }
+    }
+
+console.log(myTableau);
+
+};
+SaisieTab();
+
+//Fonction Affiche Tableau
+
+function Affiche(myTableau)
+{
+    console.table(myTableau);
+    return;
+    
+};
+Affiche(myTableau)
+
+//Fonction recherche dans le tableau
+
+let R;
+
+function RechercheTab(toto)
+{
+    R = window.prompt("Entrer la ligne a chercher entre");
+    myTableau[R];
+};
+RechercheTab(toto);
+console.log(RechercheTab(toto));
+
+//Fonction Info Tableau
+
+function InfoTab()
+{
+    let moy = NumAverage;
+};
