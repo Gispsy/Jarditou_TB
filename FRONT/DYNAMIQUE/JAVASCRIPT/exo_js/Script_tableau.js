@@ -85,7 +85,9 @@
 
 //Exo 2
 
-let longueur_tab = window.prompt("Entrer nombre de poste");
+let longueur_tab = Number(window.prompt("Entrer nombre de poste"));
+let d = 0;
+d= d+longueur_tab;
 let myTableau;
 
 function InitTab(p)
@@ -99,16 +101,17 @@ InitTab(longueur_tab);
 
 //Fonction saisie des poste
 
-let i;
-let valeur;
-
+let i;                  // i rempplie les valeur du tableau
+let valeur;             // valeur sers a aider i a recevoir ces valeur
+let s = 0               // Pour additionner les valeurs 
 function SaisieTab()
 {
 
 
     for(i=0 ;i<longueur_tab ;i++){
         if(i<longueur_tab){
-            valeur = window.prompt("Entrer valeur");
+            valeur = Number(window.prompt("Entrer valeur"));
+            s= s+valeur;
             myTableau[i] = valeur;
         }else{
             break;
@@ -132,19 +135,30 @@ Affiche(myTableau)
 
 //Fonction recherche dans le tableau
 
-let R;
+let r;
+let separation = ";";
 
-function RechercheTab(toto)
+
+function RechercheTab()
 {
-    R = window.prompt("Entrer la ligne a chercher entre");
-    myTableau[R];
+    r = window.prompt("Entrer la ligne a chercher entre");      //Recherche de la bonne ligne du tableau
+    r = r-1;
+    console.log(myTableau [r]);
+    return;
 };
-RechercheTab(toto);
-console.log(RechercheTab(toto));
+
+RechercheTab();
+
 
 //Fonction Info Tableau
 
+let somme=0;                //Somme de toute les valeurs du tableau
+let division = 0;           //Moyenne de toute les valeur
 function InfoTab()
 {
-    let moy = NumAverage;
+    somme = somme + s;
+    division = somme/d;
+    console.log(somme);
+    console.log(division);
 };
+InfoTab()
