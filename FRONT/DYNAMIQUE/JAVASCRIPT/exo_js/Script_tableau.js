@@ -162,3 +162,34 @@ function InfoTab()
     console.log(division);
 };
 InfoTab()
+
+
+//Tri a bulle
+let p;
+let v;
+let change = false;
+let tmp;
+function tri()
+{
+    for (p = 0; p <= Number(myTableau.length-1); p++)
+    {
+        change = false;
+    for(v = 0; v <= (myTableau.length-1) ; v++)
+    {    
+        if( myTableau[v] > myTableau[v+1] )
+        {
+                tmp = myTableau[v];
+                myTableau[v] = myTableau[v+1];
+                myTableau[v+1] = tmp;
+                change = true;
+            }
+            if(!change)
+            {
+                break;
+            }
+        }
+    }
+}
+
+tri()
+console.log(myTableau);
